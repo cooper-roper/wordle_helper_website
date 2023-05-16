@@ -1,0 +1,41 @@
+/* center all contents  in body */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.container {
+  /* width should be fixed */
+  width: '200px';
+  height: 'auto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: #282c34;
+}   
+
+/* h1 font */
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+text {
+  color: #fff;
+}
+
+a {
+  margin-bottom: 10px;
+  color: #fff;
+}

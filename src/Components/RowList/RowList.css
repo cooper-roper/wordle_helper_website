@@ -1,0 +1,53 @@
+.row-container {
+    /* width should be fixed */
+    width: '200px';
+    height: 'auto';
+    float: left;
+}   
+.rows {
+    /* centered */
+    display: flex;
+    justify-content: center;
+}
+.button-container {
+    /* buttons should be up to down */
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.result-container {
+    /* width should be fixed */
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 'auto';
+    overflow: scroll;
+    min-height: 100px;
+    max-height: 200px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    overflow-x: hidden;
+    margin-left: 40px;
+}
+
+.result-container span {
+    display: inline-block;
+    width: 20%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    flex: auto;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}

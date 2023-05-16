@@ -1,0 +1,29 @@
+.virtual-keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 101%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+}
+.keyboard-key {
+    flex: auto;
+    margin: 2px;
+    width: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.keyboard-key.pressed {
+    background-color: gray;
+}
