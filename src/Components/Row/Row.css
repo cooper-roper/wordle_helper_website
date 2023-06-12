@@ -20,6 +20,10 @@
   font-size: 1.5rem;
 }
 
+.Input.focused {
+  outline: 2px solid white; /* Change the outline color to your desired color */
+}
+
 textarea {
   height: "auto"; 
   width: 255px;

@@ -16,7 +16,7 @@ const Row = ({ value, color, isFocused, row, column, handleInputClick }) => {
                 {/* create 5 text input fields using a loop*/}
                 {[...Array(5).keys()].map((index) => (
                     <input 
-                        className="Input"
+                        className={`Input ${isFocused && column === index ? "focused" : ""}`}
                         style={{backgroundColor: "light"+color, textTransform: "uppercase"}}
                         key={index} 
                         ref={(ref) => (inputRefs.current[index] = ref)}
